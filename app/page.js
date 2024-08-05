@@ -115,7 +115,7 @@ export default function Home() {
               <li>Resolved a critical address input issue in the merchant portal, streamlining customer addition.</li>
               <li>Fixed a subscription notification bug, ensuring accurate alerts for merchants, enhancing user experience.</li>
               <li>Collaboratively redesigned the order section, refining the process from customer creation to order placement, payment method selection, and delivery.</li>
-              <li>Led the creation of the tax section's landing page within the merchant portal.</li>
+              <li>Led the creation of the tax section&apos;s landing page within the merchant portal.</li>
             </ul>
           </div>
         </div>
