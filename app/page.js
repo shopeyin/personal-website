@@ -21,6 +21,16 @@ export default function Home() {
           </a>
         </div>
         <div className="mt-4">
+          <a
+            href="https://www.linkedin.com/in/oladimejishopeyin"
+            className="text-blue-600 dark:text-blue-400 hover:underline text-lg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </div>
+        <div className="mt-4">
           <a href="tel:07851380528" className="hover:underline">
             07851380528
           </a>
@@ -84,18 +94,24 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Project Cards */}
           {[
+           {
+            "title": "Job Board Web App",
+            "description": "A full-stack job board web application built using Next.js for the frontend and Express.js for the backend. This platform allows employers to post jobs, manage candidates, and view candidate profiles. Job seekers can search for jobs, apply for positions. The application is styled with Tailwind CSS and incorporates JWT authentication for secure user access.",
+            "link": "https://job-b-client.vercel.app/"
+          },
+          
             {
               title: "Global Voices Multilingual Website",
               description:
                 "Created with Next.js and WordPress to provide company information, request quotes, view news, and showcase previous works.",
               link: "https://globalvoices.com",
             },
-            {
-              title: "Cabin Reservation Website",
-              description:
-                "A cabin reservation webapp where users can make reservations for a cabin and login to their profile to view their reservations.",
-              link: "https://reservation-app-six.vercel.app/",
-            },
+            // {
+            //   title: "Cabin Reservation Website",
+            //   description:
+            //     "A cabin reservation webapp where users can make reservations for a cabin and login to their profile to view their reservations.",
+            //   link: "https://reservation-app-six.vercel.app/",
+            // },
             {
               title: "Global Voices Media Website",
               description:
