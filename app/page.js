@@ -162,7 +162,7 @@ export default function Home() {
         <div className="text-left">
           <div className="mb-8">
             <h3 className="text-2xl font-bold">
-              Frontend Developer - Global Voices, Stirling, Scotland, UK
+              Software Developer - Global Voices, Stirling, Scotland, UK
             </h3>
             <p className="text-lg font-light">November 2023 - Present</p>
             <ul className="list-disc list-inside mt-2">
